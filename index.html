@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second Assignment</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,300&family=Montserrat:wght@300&family=Sofia+Sans+Condensed:wght@300&family=Sora:wght@300&display=swap" rel="stylesheet">
+    <link href="style_2.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <section class="left">
+        <div class="logo">
+            <img class=logo-img src="Logo.png" alt="Company Logo" />
+        </div>
+
+        <h1 class="header">For Individuals</h1>
+        <p class="paragraph">Start benefitting from the wellness experience. For
+            companies looking on increasing productivity, and improving organization wellness.
+        </p>
+    </section>
+    <!--End of Left Section-->
+
+    <section class="right">
+        <form class="form">
+            <div class="row">
+                <div class="field-container"> <label for="first name">First Name</label>
+                    <input type="text" class="field" />
+                </div>
+
+                <div class="field-container"><label for="last name">Last Name</label>
+                    <input type="text" class="field" />
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="field-container"><label for="gender">Gender</label>
+                    <select class="field">
+                        <option disabled selected>Select here</option>
+                        <option value="">Male</option>
+                        <option value="">Female</option>
+                        <option value="">Rather not say</option>
+
+                    </select>
+                </div>
+
+                <div class="field-container"><label for="date">Date of Birth</label>
+                    <input type="date" class="field">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="field-container"><label for="weight">Weight(KG)</label>
+                    <input type="text" class="field" placeholder="Enter Weight" />
+                </div>
+
+                <div class="field-container"><label for="Height">Height(CM)</label>
+                    <input type="text" class="field" placeholder="Enter Height" />
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="field-container"><label for="activity">Activity Level</label>
+                    <input type="text" id="text" placeholder="select here" class="field">
+                </div>
+            </div>
+            <div class="row">
+                <div class="field-container"> <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required class="field">
+                </div>
+            </div>
+
+            <div class="field-container">
+                <button type="submit" class="submit-btn">Register</button>
+            </div>
+
+            <p class="footer">
+                By clicking Register, you agree to our
+                <a href="#">Terms of Use</a>
+                and our
+                <a href="#">Privacy Policy</a>
+            </p>
+
+
+        </form>
+    </section>
+    <!--End of Right Section-->
+
+</body>
+
+</html>
